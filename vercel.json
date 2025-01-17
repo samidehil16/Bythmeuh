@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "/notre-histoire",
+        "destination": "/notre-histoire.html",
+        "permanent": true
+      }
+    ]
+  }
