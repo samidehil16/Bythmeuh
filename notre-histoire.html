@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Notre Histoire - Bythmeuh</title>
+	<meta name="description" content="Découvrez l'histoire inspirante de Bythmeuh, de ses débuts à une ferme locale à son succès en tant que producteur de produits laitiers naturels et frais." />
+  	<meta name="keywords" content="histoire Bythmeuh, ferme locale, produits laitiers naturels, lait frais, yaourt nature, entreprise familiale" />
+	<meta property="og:title" content="Notre Histoire - Bythmeuh" />
+	<meta property="og:description" content="L'histoire de Bythmeuh : de modestes débuts dans une ferme locale à un producteur renommé de produits laitiers frais et naturels." />
+	<meta property="og:image" content="./assets/img/cow-hero.jpg" />
+	<meta property="og:url" content="https://www.bythmeuh.fr/notre-histoire" />
+	<meta property="og:type" content="article" />
+	<link rel="icon" href="./assets/img/cow-logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="output.css" />
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			line-height: 1.6;
+		}
+		
+		main {
+			padding-top: 100px;
+		}
+		.hero {
+			background-image: url('./assets/img/cow-hero.jpg');
+			background-size: cover;
+			background-position: center;
+			position: relative;
+			height: 300px;
+			color: white;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.hero::before {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+			z-index: 0;
+		}
+		.hero h1 {
+			font-size: 3rem;
+			z-index: 1;
+		}
+		article {
+			margin: 0 auto;
+			max-width: 800px;
+			padding: 20px;
+			background: #fff;
+			border-radius: 8px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		}
+		h2 {
+			color: #333;
+			margin-top: 20px;
+		}
+		img {
+			border-radius: 8px;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<!-- Navbar -->
+		<nav class="fixed top-0 left-0 right-0 z-50 bg-white shadow-md flex justify-center items-center space-x-10 py-4 px-6">
+			<ul class="flex space-x-10">
+				<li><a href="#link1" class="text-blue-500">Nos produits</a></li>
+				<li><a href="#link2" class="text-blue-500">Notre équipe</a></li>
+			</ul>
+			<div class="flex justify-center">
+                <a href="./index.html">
+                    <img src="./assets/img/cow-logo.png" alt="Logo Bythmeuh, une vache souriante" class="h-14 w-auto" />
+                </a>
+			</div>
+			<ul class="flex space-x-10">
+				<li><a href="#link3" class="text-blue-500">Contact</a></li>
+				<li><a href="./notre-histoire.html" class="text-blue-500">Notre histoire</a></li>
+			</ul>
+		</nav>
+		
+		<main>
+			<!-- Hero Section -->
+			<section class="hero">
+				<h1>Notre Histoire</h1>
+			</section>
+			
+			<!-- Article Section -->
+			<section class="py-16 bg-gray-100">
+				<div class="container mx-auto">
+					<article>
+						<h2>Une aventure familiale et locale</h2>
+						<p>
+							L'histoire de Bythmeuh commence modestement dans une petite ferme nichée au cœur des paysages verdoyants de notre région. Fondée en 1985 par la famille Meuh, l'objectif était simple : offrir des produits laitiers frais, naturels et de qualité, tout en respectant l'environnement et les animaux.
+						</p>
+						<h2>Les débuts : une passion pour l'agriculture durable</h2>
+						<p>
+							Dès le départ, la famille a misé sur des méthodes agricoles respectueuses, nourrissant les vaches avec des aliments cultivés localement et sans produits chimiques. Cela a permis de garantir un lait riche et savoureux, base de tous nos produits.
+						</p>
+						<h2>Une croissance durable et une reconnaissance locale</h2>
+						<p>
+							Grâce à l'engagement de la famille et au soutien de la communauté locale, Bythmeuh s'est rapidement développée. En quelques années, nos produits, tels que le yaourt nature, le fromage blanc et le beurre fermier, ont conquis les cœurs des habitants et des commerçants locaux.
+						</p>
+						<h2>Aujourd'hui : une référence en produits laitiers</h2>
+						<p>
+							Bythmeuh est désormais une marque reconnue pour sa qualité et son authenticité. Nous continuons d'innover tout en restant fidèles à nos racines. Chaque produit que nous offrons est le reflet de notre passion et de notre engagement envers nos clients.
+						</p>
+						<img src="./assets/img/cow-hero.jpg" alt="Ferme Bythmeuh" class="h-96 flex w-full shadow-lg">
+					</article>
+				</div>
+			</section>
+		</main>
+		
+		<!-- Footer -->
+		<footer class="bg-white py-8">
+			<div class="container mx-auto text-center">
+				<div class="flex justify-center mb-4">
+					<img src="./assets/img/cow-logo.png" alt="Logo Bythmeuh, une vache souriante" class="h-14 w-auto" />
+				</div>
+				<p class="text-gray-700 mb-4">© 2023 Bythmeuh. Tous droits réservés. By <a class="text-blue-500" href="#">Sami</a></p>
+				<div class="flex justify-center space-x-4">
+					<a href="#link1" class="text-blue-500">Nos produits</a>
+					<a href="#link2" class="text-blue-500">Notre équipe</a>
+					<a href="#link3" class="text-blue-500">Contact</a>
+					<a href="./notre-histoire.html" class="text-blue-500">Notre histoire</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
